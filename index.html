@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>FILMCORP MEDIA | Professional Photography & Video Production for South African Small Businesses</title>
+    <meta name="title" content="FILMCORP MEDIA | Professional Photography & Video Production for South African Small Businesses">
+    <meta name="description" content="Affordable professional photography, video production, and content creation for SMMEs in Durban & South Africa. Product photos, brand videos, social content. Try us - it's cheaper than you think!">
+    <meta name="keywords" content="photography Durban, video production South Africa, content creation, product photography, small business photography, SMME content, brand photography Durban, social media content, affordable photography">
+    <meta name="author" content="FILMCORP MEDIA">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://filmcorpmedia.co.za/">
+    <meta property="og:title" content="FILMCORP MEDIA | Professional Photography & Video Production">
+    <meta property="og:description" content="Affordable professional photography, video production, and content creation for South African small businesses. Try us - it's cheaper than you think!">
+    <meta property="og:image" content="https://filmcorpmedia.co.za/og-image.jpg">
+    <meta property="og:locale" content="en_ZA">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://filmcorpmedia.co.za/">
+    <meta property="twitter:title" content="FILMCORP MEDIA | Professional Photography & Video Production">
+    <meta property="twitter:description" content="Affordable professional photography, video production, and content creation for South African small businesses.">
+    <meta property="twitter:image" content="https://filmcorpmedia.co.za/og-image.jpg">
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="ZA-NL">
+    <meta name="geo.placename" content="Durban">
+    <meta name="geo.position" content="-29.8587;31.0218">
+    <meta name="ICBM" content="-29.8587, 31.0218">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="canonical" href="https://filmcorpmedia.co.za/">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "FILMCORP MEDIA",
+      "image": "https://filmcorpmedia.co.za/logo.svg",
+      "description": "Professional photography, video production, and content creation for South African small businesses",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Durban",
+        "addressRegion": "KwaZulu-Natal",
+        "addressCountry": "ZA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -29.8587,
+        "longitude": 31.0218
+      },
+      "url": "https://filmcorpmedia.co.za",
+      "telephone": "+27-XX-XXX-XXXX",
+      "email": "hello@filmcorpmedia.co.za",
+      "priceRange": "R2500-R10000",
+      "openingHours": "Mo-Fr 09:00-17:00",
+      "sameAs": [
+        "https://www.facebook.com/filmcorpmedia",
+        "https://www.instagram.com/filmcorpmedia",
+        "https://www.linkedin.com/company/filmcorpmedia"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "South Africa"
+      },
+      "serviceType": ["Photography", "Video Production", "Content Creation"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Content Creation Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Product Photography",
+              "description": "Professional product photography for e-commerce and marketing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Video Production",
+              "description": "Promotional videos, social media content, and corporate video"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand Photography",
+              "description": "Professional brand and corporate photography services"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .mobile-menu {
+            display: none;
+        }
+        .mobile-menu.active {
+            display: block;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-white">
+    
+    <!-- Header -->
+    <header class="fixed w-full bg-white shadow-sm z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <!-- Logo -->
+                    <a href="#home" aria-label="FILMCORP MEDIA Home">
+                        <svg width="200" height="50" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-12 w-auto">
+                            <rect x="5" y="10" width="35" height="40" rx="4" fill="#ea580c"/>
+                            <rect x="12" y="17" width="8" height="26" fill="white"/>
+                            <rect x="20" y="17" width="13" height="5" fill="white"/>
+                            <rect x="20" y="27" width="10" height="5" fill="white"/>
+                            <text x="50" y="35" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1a1a1a">FILMCORP</text>
+                            <text x="50" y="48" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#ea580c">MEDIA</text>
+                        </svg>
+                    </a>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-orange-600 transition">Home</a>
+                    <a href="#portfolio" class="text-gray-700 hover:text-orange-600 transition">Our Work</a>
+                    <a href="#services" class="text-gray-700 hover:text-orange-600 transition">Services</a>
+                    <a href="#about" class="text-gray-700 hover:text-orange-600 transition">About</a>
+                    <a href="#why-us" class="text-gray-700 hover:text-orange-600 transition">Why Us</a>
+                    <a href="#faq" class="text-gray-700 hover:text-orange-600 transition">FAQ</a>
+                    <a href="#contact" class="bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-700 transition">Get Started</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="md:hidden" id="mobile-menu-button" aria-label="Toggle menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="mobile-menu md:hidden mt-4 pb-4 space-y-3" id="mobile-menu">
+                <a href="#home" class="block text-gray-700 hover:text-orange-600 py-2">Home</a>
+                <a href="#portfolio" class="block text-gray-700 hover:text-orange-600 py-2">Our Work</a>
+                <a href="#services" class="block text-gray-700 hover:text-orange-600 py-2">Services</a>
+                <a href="#about" class="block text-gray-700 hover:text-orange-600 py-2">About</a>
+                <a href="#why-us" class="block text-gray-700 hover:text-orange-600 py-2">Why Us</a>
+                <a href="#faq" class="block text-gray-700 hover:text-orange-600 py-2">FAQ</a>
+                <a href="#contact" class="block bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-700 text-center">Get Started</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 px-6 bg-gradient-to-br from-gray-50 to-orange-50">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+                    Your business deserves content that actually works.
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto">
+                    Professional photography, video, and content creation for South African small businesses — without the agency price tag or corporate attitude.
+                </p>
+                <p class="text-lg text-gray-600 mb-4 max-w-3xl mx-auto">
+                    You've got a great business. Now let's make sure people see it that way. We create scroll-stopping content that helps small businesses like yours look professional, build trust, and actually get noticed online.
+                </p>
+                <p class="text-xl font-semibold text-orange-600 mb-8">
+                    Try us. It's cheaper than you think.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#request-form" class="bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition shadow-lg">
+                        Get a free quote
+                    </a>
+                    <a href="#portfolio" class="bg-white text-gray-900 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-50 transition border-2 border-gray-200">
+                        See our work
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Request Form Section -->
+    <section id="request-form" class="py-20 px-6 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                    Tell us about your project
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Fill in the form below and we'll get back to you within 24 hours with a transparent quote — no jargon, no surprises.
+                </p>
+            </div>
+
+            <!-- Netlify Form -->
+            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="bg-gray-50 p-8 md:p-12 rounded-2xl shadow-lg">
+                <!-- Hidden fields for Netlify -->
+                <input type="hidden" name="form-name" value="contact">
+                <p class="hidden">
+                    <label>Don't fill this out if you're human: <input name="bot-field"></label>
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <!-- Name -->
+                    <div>
+                        <label for="name" class="block text-sm font-semibold text-gray-900 mb-2">
+                            Your Name *
+                        </label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition"
+                            placeholder="John Doe"
+                        >
+                    </div>
+
+                    <!-- Company/Business Name -->
+                    <div>
+                        <label for="company" class="block text-sm font-semibold text-gray-900 mb-2">
+                            Company/Business Name
+                        </label>
+                        <input
+                            type="text"
+                            id="company"
+                            name="company"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition"
+                            placeholder="Your Business Name"
+                        >
+                    </div>
+
+                    <!-- Email -->
+                    <div>
+                        <label for="email" class="block text-sm font-semibold text-gray-900 mb-2">
+                            Email Address *
+                        </label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition"
+                            placeholder="you@yourbusiness.com"
+                        >
+                    </div>
+
+                    <!-- Phone -->
+                    <div>
+                        <label for="phone" class="block text-sm font-semibold text-gray-900 mb-2">
+                            Phone Number
+                        </label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition"
+                            placeholder="+27 XX XXX XXXX"
+                        >
+                    </div>
+                </div>
+
+                <!-- Service Type -->
+                <div class="mb-6">
+                    <label for="service" class="block text-sm font-semibold text-gray-900 mb-2">
+                        What service are you interested in? *
+                    </label>
+                    <select
+                        id="service"
+                        name="service"
+                        required
+                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition bg-white"
+                    >
+                        <option value="">Select a service...</option>
+                        <option value="product-photography">Product Photography</option>
+                        <option value="brand-photography">Brand Photography</option>
+                        <option value="corporate-headshots">Corporate Headshots</option>
+                        <option value="event-photography">Event Photography</option>
+                        <option value="video-production">Video Production</option>
+                        <option value="social-media-content">Social Media Content</option>
+                        <option value="content-packages">Ongoing Content Packages</option>
+                        <option value="not-sure">Not sure yet / Multiple services</option>
+                    </select>
+                </div>
+
+                <!-- Project Requirements -->
+                <div class="mb-6">
+                    <label for="requirements" class="block text-sm font-semibold text-gray-900 mb-2">
+                        Tell us about your project *
+                    </label>
+                    <textarea
+                        id="requirements"
+                        name="requirements"
+                        required
+                        rows="8"
+                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition resize-y"
+                        placeholder="Tell us what you need... For example: How many products need photographing? What's the shoot for? When do you need it by? What's your rough budget? Any specific style or vibe you're after? The more details, the better quote we can give you."
+                    ></textarea>
+                    <p class="text-sm text-gray-500 mt-2">
+                        Don't worry about getting it perfect — we'll chat through the details together.
+                    </p>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button
+                        type="submit"
+                        class="bg-orange-600 text-white px-12 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition shadow-lg"
+                    >
+                        Get Your Free Quote
+                    </button>
+                    <p class="text-sm text-gray-600 mt-4">
+                        We'll respond within 24 hours with a clear, honest quote. Usually much faster.
+                    </p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rest of the website continues... -->
+    
+    <!-- Value Proposition -->
+    <section class="py-20 px-6 bg-white">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6 text-center">
+                Finally, content that doesn't break the bank (or your brain)
+            </h2>
+            <div class="text-lg text-gray-700 space-y-4 mb-12">
+                <p>
+                    Here's the thing: you know your business needs better photos and videos. You've seen what good content does for other brands. But between running your business, managing staff, and keeping customers happy, who has time to figure out lighting setups and editing software?
+                </p>
+                <p>
+                    That's where we come in. We're the content team you'd hire if you could — without the full-time salary, the leave days, or the awkward office small talk.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-orange-50 p-8 rounded-xl">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Professional content, fair prices</h3>
+                    <p class="text-gray-700">We've built our packages specifically for small and growing businesses. No astronomical quotes that make you choke on your coffee.</p>
+                </div>
+                <div class="bg-orange-50 p-8 rounded-xl">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Actually get it done</h3>
+                    <p class="text-gray-700">We handle everything from planning to final delivery. You show up, we do the heavy lifting, and you walk away with content ready to use.</p>
+                </div>
+                <div class="bg-orange-50 p-8 rounded-xl">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Content that sells</h3>
+                    <p class="text-gray-700">Pretty pictures are nice, but you need content that helps people trust your brand and hit that "buy now" button. That's what we focus on.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio / Our Work Section -->
+    <section id="portfolio" class="py-20 px-6 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                    Our Work
+                </h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Check out some recent projects we've done for South African small businesses
+                </p>
+            </div>
+
+            <!-- Content Grid -->
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+                <!-- Portfolio Item 1 -->
+                <article class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <div class="aspect-square bg-gray-200 flex items-center justify-center">
+                        <svg class="text-gray-400" width="48" height="48" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-sm text-orange-600 font-semibold mb-1">Product Photography</div>
+                        <h3 class="font-bold text-gray-900">E-commerce Store</h3>
+                    </div>
+                </article>
+
+                <!-- Portfolio Item 2 -->
+                <article class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <div class="aspect-square bg-gray-200 flex items-center justify-center">
+                        <svg class="text-gray-400" width="48" height="48" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-sm text-orange-600 font-semibold mb-1">Video Production</div>
+                        <h3 class="font-bold text-gray-900">Restaurant Promo</h3>
+                    </div>
+                </article>
+
+                <!-- Portfolio Item 3 -->
+                <article class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <div class="aspect-square bg-gray-200 flex items-center justify-center">
+                        <svg class="text-gray-400" width="48" height="48" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-sm text-orange-600 font-semibold mb-1">Brand Photography</div>
+                        <h3 class="font-bold text-gray-900">Coffee Shop</h3>
+                    </div>
+                </article>
+
+                <!-- Portfolio Item 4 -->
+                <article class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <div class="aspect-square bg-gray-200 flex items-center justify-center">
+                        <svg class="text-gray-400" width="48" height="48" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-sm text-orange-600 font-semibold mb-1">Product Photography</div>
+                        <h3 class="font-bold text-gray-900">Tech Products</h3>
+                    </div>
+                </article>
+
+                <!-- Portfolio Item 5 -->
+                <article class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <div class="aspect-square bg-gray-200 flex items-center justify-center">
+                        <svg class="text-gray-400" width="48" height="48" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-sm text-orange-600 font-semibold mb-1">Social Content</div>
+                        <h3 class="font-bold text-gray-900">Fitness Studio</h3>
+                    </div>
+                </article>
+
+                <!-- Portfolio Item 6 -->
+                <article class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <div class="aspect-square bg-gray-200 flex items-center justify-center">
+                        <svg class="text-gray-400" width="48" height="48" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-sm text-orange-600 font-semibold mb-1">Brand Content</div>
+                        <h3 class="font-bold text-gray-900">Beauty Brand</h3>
+                    </div>
+                </article>
+            </div>
+
+            <div class="text-center">
+                <p class="text-gray-600 mb-6">
+                    Replace these placeholder boxes with your actual photos and videos
+                </p>
+                <a href="#contact" class="inline-block bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-700 transition">
+                    Start Your Project
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section id="services" class="py-20 px-6 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4 text-center">
+                Everything your business needs to look the part
+            </h2>
+            <p class="text-xl text-gray-600 mb-12 text-center max-w-3xl mx-auto">
+                From product shots to promotional videos, we've got you covered
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Photography -->
+                <article class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="text-orange-600" width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Photography</h3>
+                    <p class="text-gray-700 mb-6">
+                        Product shots for your website, headshots that don't look awkward, and brand photography that tells your story. Whether you're selling online or just need to update that LinkedIn photo from 2015 — we've got you.
+                    </p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li>• Product photography</li>
+                        <li>• Brand photography</li>
+                        <li>• Corporate headshots</li>
+                        <li>• Event photography</li>
+                    </ul>
+                </article>
+
+                <!-- Video Production -->
+                <article class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="text-orange-600" width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Video Production</h3>
+                    <p class="text-gray-700 mb-6">
+                        From social media clips that stop the scroll to promotional videos that actually explain what you do, we create video content that works as hard as you do.
+                    </p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li>• Social media video</li>
+                        <li>• Promotional videos</li>
+                        <li>• Product videos</li>
+                        <li>• Corporate video</li>
+                    </ul>
+                </article>
+
+                <!-- Content Creation -->
+                <article class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="text-orange-600" width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Content Creation</h3>
+                    <p class="text-gray-700 mb-6">
+                        Reels, TikToks, social posts — the stuff that feeds the algorithm and keeps your brand visible. Consistent, professional, on-brand content without you having to become a content creator yourself.
+                    </p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li>• Ongoing content packages</li>
+                        <li>• Social media content</li>
+                        <li>• Content strategy support</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-20 px-6 bg-white">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">
+                Getting great content is simpler than you think
+            </h2>
+
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="bg-orange-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">We talk</h3>
+                    <p class="text-gray-600">Tell us about your business and what you need. No pressure, no sales pitch.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-orange-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">We plan</h3>
+                    <p class="text-gray-600">Clear proposal with transparent pricing. You'll know exactly what you're getting.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-orange-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">We create</h3>
+                    <p class="text-gray-600">Most shoots take half a day or less. Minimal disruption to your business.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-orange-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">You shine</h3>
+                    <p class="text-gray-600">Within days, professional content ready to post, upload, and share.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 bg-gray-900 text-white">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl font-bold mb-6 text-center">
+                We're the content team small businesses actually need
+            </h2>
+            <div class="text-lg space-y-4 mb-12">
+                <p>
+                    Let's be real: most production companies aren't built for businesses like yours. They're set up for big brands with big budgets, and when a small business calls, they either quote something ridiculous or treat you like an afterthought.
+                </p>
+                <p>
+                    That's why FILMCORP MEDIA exists. We're a content production company built specifically for South African small and medium businesses. The ones doing the real work. The ones that deserve to look just as professional as the big players — without the big player price tag.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mt-12">
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-3 text-orange-400">Small businesses are the backbone of this country</h3>
+                    <p class="text-gray-300">SMMEs make up over 90% of businesses in South Africa and create most of the jobs. You're not "just a small business" — you're the economy. Your content should reflect that.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-3 text-orange-400">Quality shouldn't be a luxury</h3>
+                    <p class="text-gray-300">You don't need to choose between decent content you can afford and professional content that'll break the bank. We've figured out how to deliver both.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-3 text-orange-400">Content should work as hard as you do</h3>
+                    <p class="text-gray-300">Pretty photos are nice, but we're more interested in content that helps you make money. Every piece should serve a purpose.</p>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-3 text-orange-400">You deserve to be treated like you matter</h3>
+                    <p class="text-gray-300">Because you do. We're not going to disappear after the invoice is paid. You're not a number — you're a business owner, and we respect that.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us" class="py-20 px-6 bg-white">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4 text-center">
+                Why FILMCORP MEDIA?
+            </h2>
+            <p class="text-xl text-gray-600 mb-12 text-center">
+                Six reasons small businesses choose us over the alternatives
+            </p>
+
+            <div class="space-y-6">
+                <article class="bg-orange-50 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">1. We're actually built for your budget</h3>
+                    <p class="text-gray-700">While other production companies quote like you're a multinational, we've structured our entire business around small and medium enterprises. You'll get professional content at prices that won't make your accountant cry.</p>
+                </article>
+                <article class="bg-orange-50 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">2. Transparent pricing (no nasty surprises)</h3>
+                    <p class="text-gray-700">We tell you what it costs upfront, we stick to that number, and we deliver what we promised. Budget clarity isn't optional when you're running a small business.</p>
+                </article>
+                <article class="bg-orange-50 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">3. You're not just another client</h3>
+                    <p class="text-gray-700">When you work with us, you work with us — not an endless chain of account managers. We learn your business and give you direct access to the people doing your work.</p>
+                </article>
+                <article class="bg-orange-50 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">4. Quick, painless process</h3>
+                    <p class="text-gray-700">Most clients are in and out in a few hours with content that's ready days later — not weeks. You've got a business to run. We respect your time.</p>
+                </article>
+                <article class="bg-orange-50 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">5. Content that actually does something</h3>
+                    <p class="text-gray-700">We're not just focused on what looks good — we're focused on what works. Every piece of content should serve your business goals.</p>
+                </article>
+                <article class="bg-orange-50 p-6 rounded-xl">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">6. We genuinely care about South African small businesses</h3>
+                    <p class="text-gray-700">SMMEs are why we do what we do. We believe small businesses deserve the same quality of content as big corporations, and we've built FILMCORP MEDIA to make that possible.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 px-6 bg-gray-50">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4 text-center">
+                Frequently Asked Questions
+            </h2>
+            <p class="text-xl text-gray-600 mb-12 text-center">
+                Real answers to the questions small business owners actually ask
+            </p>
+
+            <div class="space-y-4">
+                <details class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:bg-gray-50">
+                        How much does this actually cost?
+                    </summary>
+                    <div class="px-6 pb-4 text-gray-700">
+                        We know "it depends" is annoying, so here's some real talk: our photography packages typically start from R2,500 for small shoots, product photography from R150-300 per product depending on volume, and video projects from around R5,000 for social content. We'll give you a clear quote before any work starts — no surprises.
+                    </div>
+                </details>
+
+                <details class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:bg-gray-50">
+                        How long until I get my content?
+                    </summary>
+                    <div class="px-6 pb-4 text-gray-700">
+                        For photography: typically within 5-7 working days after your shoot. Video takes a bit longer — usually 7-14 working days depending on complexity. Need something faster? Let us know and we'll see what's possible.
+                    </div>
+                </details>
+
+                <details class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:bg-gray-50">
+                        I've never done a professional shoot before. Is that okay?
+                    </summary>
+                    <div class="px-6 pb-4 text-gray-700">
+                        Absolutely — many of our clients are first-timers. We'll guide you through the whole process, from what to wear to how to prepare your products. Part of our job is making you comfortable, so don't stress about not knowing what to do.
+                    </div>
+                </details>
+
+                <details class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:bg-gray-50">
+                        Will you come to my location, or do I need to come to you?
+                    </summary>
+                    <div class="px-6 pb-4 text-gray-700">
+                        We do both. We can shoot at your business premises, at our studio, or at a location that makes sense for your brand. Wherever tells your story best — we'll make it work.
+                    </div>
+                </details>
+
+                <details class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:bg-gray-50">
+                        My budget is really limited right now. Can you still help?
+                    </summary>
+                    <div class="px-6 pb-4 text-gray-700">
+                        We'd rather do something within your budget than not work together at all. Tell us what you can spend, and we'll tell you honestly what's possible. Sometimes we can get creative with smaller scopes, and sometimes we'll recommend you wait until the budget stretches further. No pressure either way.
+                    </div>
+                </details>
+
+                <details class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:bg-gray-50">
+                        Do I own the content you create?
+                    </summary>
+                    <div class="px-6 pb-4 text-gray-700">
+                        Yes. Once the project is paid for, you own full rights to use the content however you need — website, social media, ads, printed materials, the works. No hidden licensing fees or usage restrictions.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 bg-gradient-to-br from-orange-600 to-orange-700 text-white">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                Ready to stop blending in?
+            </h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                Every day you wait is another day your competitors look more professional than you. Let's change that.
+            </p>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">
+                Get in touch for a no-obligation chat about your content needs. We'll give you honest advice — even if that means telling you to DIY it for now.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                <a href="tel:+27000000000" class="bg-white text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition inline-flex items-center justify-center gap-2">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                    </svg>
+                    Call Us
+                </a>
+                <a href="mailto:hello@filmcorpmedia.co.za" class="bg-white text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition inline-flex items-center justify-center gap-2">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                    </svg>
+                    Email Us
+                </a>
+            </div>
+
+            <p class="text-orange-100">
+                No sales pitch. No pressure. Just a conversation.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-6">
+        <div class="container mx-auto max-w-6xl">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <!-- Logo in footer -->
+                    <svg width="180" height="45" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-10 w-auto mb-4">
+                        <rect x="5" y="10" width="35" height="40" rx="4" fill="#ea580c"/>
+                        <rect x="12" y="17" width="8" height="26" fill="#1a1a1a"/>
+                        <rect x="20" y="17" width="13" height="5" fill="#1a1a1a"/>
+                        <rect x="20" y="27" width="10" height="5" fill="#1a1a1a"/>
+                        <text x="50" y="35" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="white">FILMCORP</text>
+                        <text x="50" y="48" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" fill="#ea580c">MEDIA</text>
+                    </svg>
+                    <p class="text-gray-400">Professional content for businesses that don't do corporate.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <nav class="space-y-2 text-gray-400">
+                        <a href="#portfolio" class="block hover:text-orange-600 transition">Our Work</a>
+                        <a href="#services" class="block hover:text-orange-600 transition">Services</a>
+                        <a href="#about" class="block hover:text-orange-600 transition">About</a>
+                        <a href="#why-us" class="block hover:text-orange-600 transition">Why Us</a>
+                        <a href="#faq" class="block hover:text-orange-600 transition">FAQ</a>
+                    </nav>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Get In Touch</h4>
+                    <div class="space-y-2 text-gray-400">
+                        <p>Email: hello@filmcorpmedia.co.za</p>
+                        <p>Phone: +27 (0)XX XXX XXXX</p>
+                        <p>Location: Durban, South Africa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2026 FILMCORP MEDIA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('mobile-menu').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
