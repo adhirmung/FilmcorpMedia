@@ -1,0 +1,25 @@
+# Robots.txt for FILMCORP MEDIA
+# https://filmcorpmedia.co.za
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://filmcorpmedia.co.za/sitemap.xml
+
+# Block common bot traffic that doesn't add value
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Allow all major search engines full access
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /

@@ -7,8 +7,8 @@
     <!-- Primary Meta Tags -->
     <title>FILMCORP MEDIA | Professional Photography & Video Production for South African Small Businesses</title>
     <meta name="title" content="FILMCORP MEDIA | Professional Photography & Video Production for South African Small Businesses">
-    <meta name="description" content="Affordable professional photography, video production, and content creation for SMMEs in Durban & South Africa. Product photos, brand videos, social content. Try us - it's cheaper than you think!">
-    <meta name="keywords" content="photography Durban, video production South Africa, content creation, product photography, small business photography, SMME content, brand photography Durban, social media content, affordable photography">
+    <meta name="description" content="Affordable professional photography, video production, AI video generation, and content creation for SMMEs in Durban & South Africa. Product photos, brand videos, AI-powered content, social media. Try us - it's cheaper than you think!">
+    <meta name="keywords" content="photography Durban, video production South Africa, AI video generation, content creation, product photography, small business photography, SMME content, brand photography Durban, social media content, affordable photography, AI videos">
     <meta name="author" content="FILMCORP MEDIA">
     <meta name="robots" content="index, follow">
     
@@ -16,7 +16,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://filmcorpmedia.co.za/">
     <meta property="og:title" content="FILMCORP MEDIA | Professional Photography & Video Production">
-    <meta property="og:description" content="Affordable professional photography, video production, and content creation for South African small businesses. Try us - it's cheaper than you think!">
+    <meta property="og:description" content="Affordable professional photography, video production, AI video generation, and content creation for South African small businesses. Try us - it's cheaper than you think!">
     <meta property="og:image" content="https://filmcorpmedia.co.za/og-image.jpg">
     <meta property="og:locale" content="en_ZA">
     
@@ -24,7 +24,7 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://filmcorpmedia.co.za/">
     <meta property="twitter:title" content="FILMCORP MEDIA | Professional Photography & Video Production">
-    <meta property="twitter:description" content="Affordable professional photography, video production, and content creation for South African small businesses.">
+    <meta property="twitter:description" content="Affordable professional photography, video production, AI video generation, and content creation for South African small businesses.">
     <meta property="twitter:image" content="https://filmcorpmedia.co.za/og-image.jpg">
     
     <!-- Geo Tags -->
@@ -44,7 +44,7 @@
       "@type": "LocalBusiness",
       "name": "FILMCORP MEDIA",
       "image": "https://filmcorpmedia.co.za/logo.svg",
-      "description": "Professional photography, video production, and content creation for South African small businesses",
+      "description": "Professional photography, video production, AI video generation, and content creation for South African small businesses",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Durban",
@@ -70,7 +70,7 @@
         "@type": "Country",
         "name": "South Africa"
       },
-      "serviceType": ["Photography", "Video Production", "Content Creation"],
+      "serviceType": ["Photography", "Video Production", "AI Video Generation", "Content Creation"],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Content Creation Services",
@@ -89,6 +89,14 @@
               "@type": "Service",
               "name": "Video Production",
               "description": "Promotional videos, social media content, and corporate video"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI Video Generation",
+              "description": "AI-powered video creation from scripts, images, or ideas"
             }
           },
           {
@@ -179,7 +187,7 @@
                     Your business deserves content that actually works.
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto">
-                    Professional photography, video, and content creation for South African small businesses — without the agency price tag or corporate attitude.
+                    Professional photography, video production, AI video generation, and content creation for South African small businesses — without the agency price tag or corporate attitude.
                 </p>
                 <p class="text-lg text-gray-600 mb-4 max-w-3xl mx-auto">
                     You've got a great business. Now let's make sure people see it that way. We create scroll-stopping content that helps small businesses like yours look professional, build trust, and actually get noticed online.
@@ -199,179 +207,9 @@
         </div>
     </section>
 
-    <!-- Request Form Section -->
-    <section id="request-form" class="py-20 px-6 bg-white">
-        <div class="container mx-auto max-w-4xl">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">
-                    Tell us about your project
-                </h2>
-                <p class="text-xl text-gray-600">
-                    Fill in the form below and we'll get back to you within 24 hours with a transparent quote — no jargon, no surprises.
-                </p>
-            </div>
-
-            <!-- Netlify Form -->
-            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="bg-gray-50 p-8 md:p-12 rounded-2xl shadow-lg">
-                <!-- Hidden fields for Netlify -->
-                <input type="hidden" name="form-name" value="contact">
-                <p class="hidden">
-                    <label>Don't fill this out if you're human: <input name="bot-field"></label>
-                </p>
-
-                <div class="grid md:grid-cols-2 gap-6 mb-6">
-                    <!-- Name -->
-                    <div>
-                        <label for="name" class="block text-sm font-semibold text-gray-900 mb-2">
-                            Your Name *
-                        </label>
-                        <input
-                            type="text"
-                            id="name"
-                            name="name"
-                            required
-                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition"
-                            placeholder="John Doe"
-                        >
-                    </div>
-
-                    <!-- Company/Business Name -->
-                    <div>
-                        <label for="company" class="block text-sm font-semibold text-gray-900 mb-2">
-                            Company/Business Name
-                        </label>
-                        <input
-                            type="text"
-                            id="company"
-                            name="company"
-                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition"
-                            placeholder="Your Business Name"
-                        >
-                    </div>
-
-                    <!-- Email -->
-                    <div>
-                        <label for="email" class="block text-sm font-semibold text-gray-900 mb-2">
-                            Email Address *
-                        </label>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            required
-                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition"
-                            placeholder="you@yourbusiness.com"
-                        >
-                    </div>
-
-                    <!-- Phone -->
-                    <div>
-                        <label for="phone" class="block text-sm font-semibold text-gray-900 mb-2">
-                            Phone Number
-                        </label>
-                        <input
-                            type="tel"
-                            id="phone"
-                            name="phone"
-                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition"
-                            placeholder="+27 XX XXX XXXX"
-                        >
-                    </div>
-                </div>
-
-                <!-- Service Type -->
-                <div class="mb-6">
-                    <label for="service" class="block text-sm font-semibold text-gray-900 mb-2">
-                        What service are you interested in? *
-                    </label>
-                    <select
-                        id="service"
-                        name="service"
-                        required
-                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition bg-white"
-                    >
-                        <option value="">Select a service...</option>
-                        <option value="product-photography">Product Photography</option>
-                        <option value="brand-photography">Brand Photography</option>
-                        <option value="corporate-headshots">Corporate Headshots</option>
-                        <option value="event-photography">Event Photography</option>
-                        <option value="video-production">Video Production</option>
-                        <option value="social-media-content">Social Media Content</option>
-                        <option value="content-packages">Ongoing Content Packages</option>
-                        <option value="not-sure">Not sure yet / Multiple services</option>
-                    </select>
-                </div>
-
-                <!-- Project Requirements -->
-                <div class="mb-6">
-                    <label for="requirements" class="block text-sm font-semibold text-gray-900 mb-2">
-                        Tell us about your project *
-                    </label>
-                    <textarea
-                        id="requirements"
-                        name="requirements"
-                        required
-                        rows="8"
-                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition resize-y"
-                        placeholder="Tell us what you need... For example: How many products need photographing? What's the shoot for? When do you need it by? What's your rough budget? Any specific style or vibe you're after? The more details, the better quote we can give you."
-                    ></textarea>
-                    <p class="text-sm text-gray-500 mt-2">
-                        Don't worry about getting it perfect — we'll chat through the details together.
-                    </p>
-                </div>
-
-                <!-- Submit Button -->
-                <div class="text-center">
-                    <button
-                        type="submit"
-                        class="bg-orange-600 text-white px-12 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition shadow-lg"
-                    >
-                        Get Your Free Quote
-                    </button>
-                    <p class="text-sm text-gray-600 mt-4">
-                        We'll respond within 24 hours with a clear, honest quote. Usually much faster.
-                    </p>
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <!-- Rest of the website continues... -->
-    
-    <!-- Value Proposition -->
-    <section class="py-20 px-6 bg-white">
-        <div class="container mx-auto max-w-5xl">
-            <h2 class="text-4xl font-bold text-gray-900 mb-6 text-center">
-                Finally, content that doesn't break the bank (or your brain)
-            </h2>
-            <div class="text-lg text-gray-700 space-y-4 mb-12">
-                <p>
-                    Here's the thing: you know your business needs better photos and videos. You've seen what good content does for other brands. But between running your business, managing staff, and keeping customers happy, who has time to figure out lighting setups and editing software?
-                </p>
-                <p>
-                    That's where we come in. We're the content team you'd hire if you could — without the full-time salary, the leave days, or the awkward office small talk.
-                </p>
-            </div>
-
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-orange-50 p-8 rounded-xl">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Professional content, fair prices</h3>
-                    <p class="text-gray-700">We've built our packages specifically for small and growing businesses. No astronomical quotes that make you choke on your coffee.</p>
-                </div>
-                <div class="bg-orange-50 p-8 rounded-xl">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Actually get it done</h3>
-                    <p class="text-gray-700">We handle everything from planning to final delivery. You show up, we do the heavy lifting, and you walk away with content ready to use.</p>
-                </div>
-                <div class="bg-orange-50 p-8 rounded-xl">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Content that sells</h3>
-                    <p class="text-gray-700">Pretty pictures are nice, but you need content that helps people trust your brand and hit that "buy now" button. That's what we focus on.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Portfolio / Our Work Section -->
-    <section id="portfolio" class="py-20 px-6 bg-gray-50">
+    <section id="portfolio" class="py-20 px-6 bg-white">
         <div class="container mx-auto max-w-6xl">
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold text-gray-900 mb-4">
@@ -476,6 +314,178 @@
         </div>
     </section>
 
+
+    <!-- Value Proposition -->
+    <section class="py-20 px-6 bg-gray-50">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6 text-center">
+                Finally, content that doesn't break the bank (or your brain)
+            </h2>
+            <div class="text-lg text-gray-700 space-y-4 mb-12">
+                <p>
+                    Here's the thing: you know your business needs better photos and videos. You've seen what good content does for other brands. But between running your business, managing staff, and keeping customers happy, who has time to figure out lighting setups and editing software?
+                </p>
+                <p>
+                    That's where we come in. We're the content team you'd hire if you could — without the full-time salary, the leave days, or the awkward office small talk.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-orange-50 p-8 rounded-xl">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Professional content, fair prices</h3>
+                    <p class="text-gray-700">We've built our packages specifically for small and growing businesses. No astronomical quotes that make you choke on your coffee.</p>
+                </div>
+                <div class="bg-orange-50 p-8 rounded-xl">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Actually get it done</h3>
+                    <p class="text-gray-700">We handle everything from planning to final delivery. You show up, we do the heavy lifting, and you walk away with content ready to use.</p>
+                </div>
+                <div class="bg-orange-50 p-8 rounded-xl">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Content that sells</h3>
+                    <p class="text-gray-700">Pretty pictures are nice, but you need content that helps people trust your brand and hit that "buy now" button. That's what we focus on.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Request Form Section -->
+    <section id="request-form" class="py-20 px-6 bg-white">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">
+                    Tell us about your project
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Fill in the form below and we'll get back to you within 24 hours with a transparent quote — no jargon, no surprises.
+                </p>
+            </div>
+
+            <!-- Netlify Form -->
+            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="bg-gray-50 p-8 md:p-12 rounded-2xl shadow-lg">
+                <!-- Hidden fields for Netlify -->
+                <input type="hidden" name="form-name" value="contact">
+                <p class="hidden">
+                    <label>Don't fill this out if you're human: <input name="bot-field"></label>
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <!-- Name -->
+                    <div>
+                        <label for="name" class="block text-sm font-semibold text-gray-900 mb-2">
+                            Your Name *
+                        </label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition"
+                            placeholder="John Doe"
+                        >
+                    </div>
+
+                    <!-- Company/Business Name -->
+                    <div>
+                        <label for="company" class="block text-sm font-semibold text-gray-900 mb-2">
+                            Company/Business Name
+                        </label>
+                        <input
+                            type="text"
+                            id="company"
+                            name="company"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition"
+                            placeholder="Your Business Name"
+                        >
+                    </div>
+
+                    <!-- Email -->
+                    <div>
+                        <label for="email" class="block text-sm font-semibold text-gray-900 mb-2">
+                            Email Address *
+                        </label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition"
+                            placeholder="you@yourbusiness.com"
+                        >
+                    </div>
+
+                    <!-- Phone -->
+                    <div>
+                        <label for="phone" class="block text-sm font-semibold text-gray-900 mb-2">
+                            Phone Number
+                        </label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition"
+                            placeholder="+27 XX XXX XXXX"
+                        >
+                    </div>
+                </div>
+
+                <!-- Service Type -->
+                <div class="mb-6">
+                    <label for="service" class="block text-sm font-semibold text-gray-900 mb-2">
+                        What service are you interested in? *
+                    </label>
+                    <select
+                        id="service"
+                        name="service"
+                        required
+                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition bg-white"
+                    >
+                        <option value="">Select a service...</option>
+                        <option value="product-photography">Product Photography</option>
+                        <option value="brand-photography">Brand Photography</option>
+                        <option value="corporate-headshots">Corporate Headshots</option>
+                        <option value="event-photography">Event Photography</option>
+                        <option value="video-production">Video Production</option>
+                        <option value="ai-video-generation">AI Video Generation</option>
+                        <option value="social-media-content">Social Media Content</option>
+                        <option value="content-packages">Ongoing Content Packages</option>
+                        <option value="not-sure">Not sure yet / Multiple services</option>
+                    </select>
+                </div>
+
+                <!-- Project Requirements -->
+                <div class="mb-6">
+                    <label for="requirements" class="block text-sm font-semibold text-gray-900 mb-2">
+                        Tell us about your project *
+                    </label>
+                    <textarea
+                        id="requirements"
+                        name="requirements"
+                        required
+                        rows="8"
+                        class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-600 focus:ring-2 focus:ring-orange-200 outline-none transition resize-y"
+                        placeholder="Tell us what you need... For example: How many products need photographing? What's the shoot for? When do you need it by? What's your rough budget? Any specific style or vibe you're after? The more details, the better quote we can give you."
+                    ></textarea>
+                    <p class="text-sm text-gray-500 mt-2">
+                        Don't worry about getting it perfect — we'll chat through the details together.
+                    </p>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button
+                        type="submit"
+                        class="bg-orange-600 text-white px-12 py-4 rounded-lg text-lg font-semibold hover:bg-orange-700 transition shadow-lg"
+                    >
+                        Get Your Free Quote
+                    </button>
+                    <p class="text-sm text-gray-600 mt-4">
+                        We'll respond within 24 hours with a clear, honest quote. Usually much faster.
+                    </p>
+                </div>
+            </form>
+        </div>
+    </section>
+
     <!-- Services Overview -->
     <section id="services" class="py-20 px-6 bg-gray-50">
         <div class="container mx-auto max-w-6xl">
@@ -483,10 +493,10 @@
                 Everything your business needs to look the part
             </h2>
             <p class="text-xl text-gray-600 mb-12 text-center max-w-3xl mx-auto">
-                From product shots to promotional videos, we've got you covered
+                From product shots to AI-powered videos, we've got you covered
             </p>
 
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Photography -->
                 <article class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
                     <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
@@ -523,6 +533,25 @@
                         <li>• Promotional videos</li>
                         <li>• Product videos</li>
                         <li>• Corporate video</li>
+                    </ul>
+                </article>
+
+                <!-- AI Video Generation -->
+                <article class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
+                    <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <svg class="text-orange-600" width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">AI Video Generation</h3>
+                    <p class="text-gray-700 mb-6">
+                        Cutting-edge AI-powered video creation. Turn scripts, images, or ideas into professional videos without expensive shoots. Perfect for explainers, ads, and social content.
+                    </p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li>• AI-generated videos</li>
+                        <li>• Text-to-video creation</li>
+                        <li>• Animated explainers</li>
+                        <li>• Fast turnaround</li>
                     </ul>
                 </article>
 
@@ -670,7 +699,7 @@
                         How much does this actually cost?
                     </summary>
                     <div class="px-6 pb-4 text-gray-700">
-                        We know "it depends" is annoying, so here's some real talk: our photography packages typically start from R2,500 for small shoots, product photography from R150-300 per product depending on volume, and video projects from around R5,000 for social content. We'll give you a clear quote before any work starts — no surprises.
+                        We know "it depends" is annoying, so here's some real talk: our photography packages typically start from R2,500 for small shoots, product photography from R150-300 per product depending on volume, traditional video projects from around R5,000 for social content, and AI-generated videos from R1,500. We'll give you a clear quote before any work starts — no surprises.
                     </div>
                 </details>
 
@@ -679,7 +708,16 @@
                         How long until I get my content?
                     </summary>
                     <div class="px-6 pb-4 text-gray-700">
-                        For photography: typically within 5-7 working days after your shoot. Video takes a bit longer — usually 7-14 working days depending on complexity. Need something faster? Let us know and we'll see what's possible.
+                        For photography: typically within 5-7 working days after your shoot. Traditional video takes a bit longer — usually 7-14 working days depending on complexity. AI video generation is much faster — often 24-48 hours from brief to final video. Need something faster? Let us know and we'll see what's possible.
+                    </div>
+                </details>
+
+                <details class="bg-white rounded-xl shadow-sm overflow-hidden">
+                    <summary class="px-6 py-4 cursor-pointer font-semibold text-gray-900 hover:bg-gray-50">
+                        What's AI video generation, and how does it work?
+                    </summary>
+                    <div class="px-6 pb-4 text-gray-700">
+                        AI video generation uses cutting-edge artificial intelligence to create professional videos from scripts, images, or concepts — no traditional filming required. Perfect for explainer videos, product demos, ads, and social content. It's faster and more affordable than traditional video shoots, with turnaround times as quick as 24-48 hours. Think of it as your budget-friendly option for getting professional video content when you need it fast or don't need a physical shoot.
                     </div>
                 </details>
 
@@ -742,7 +780,7 @@
                     </svg>
                     Call Us
                 </a>
-                <a href="mailto:hello@filmcorpmedia.co.za" class="bg-white text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition inline-flex items-center justify-center gap-2">
+                <a href="/cdn-cgi/l/email-protection#9ef6fbf2f2f1def8f7f2f3fdf1eceef3fbfaf7ffb0fdf1b0e4ff" class="bg-white text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition inline-flex items-center justify-center gap-2">
                     <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                     </svg>
@@ -785,7 +823,7 @@
                 <div>
                     <h4 class="font-bold mb-4">Get In Touch</h4>
                     <div class="space-y-2 text-gray-400">
-                        <p>Email: hello@filmcorpmedia.co.za</p>
+                        <p>Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6109040d0d0e2107080d0c020e13110c040508004f020e4f1b00">[email&#160;protected]</a></p>
                         <p>Phone: +27 (0)XX XXX XXXX</p>
                         <p>Location: Durban, South Africa</p>
                     </div>
@@ -797,18 +835,10 @@
         </div>
     </footer>
     
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // Mobile menu toggle
         document.getElementById('mobile-menu-button').addEventListener('click', function() {
             document.getElementById('mobile-menu').classList.toggle('active');
         });
         
-        // Close mobile menu when clicking a link
-        document.querySelectorAll('#mobile-menu a').forEach(link => {
-            link.addEventListener('click', function() {
-                document.getElementById('mobile-menu').classList.remove('active');
-            });
-        });
-    </script>
-</body>
-</html>
+        // Close mobile menu whe
